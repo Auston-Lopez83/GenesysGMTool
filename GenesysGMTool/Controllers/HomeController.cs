@@ -15,7 +15,17 @@ namespace GenesysGMTool.Controllers
             return View();
         }
 
+        public IActionResult Soon()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult SignUp()
         {
             return View();
         }
